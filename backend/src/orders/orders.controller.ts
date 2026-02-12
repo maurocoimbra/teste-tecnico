@@ -22,7 +22,11 @@ export class OrdersController {
     @Query('end') end?: string,
   ) {
     if (start && end) {
-      return this.service.findByPeriod(new Date(start), new Date(end));
+      const startDate = new Date(start);
+      const endDate = new Date(end);
+      // Include full end day (inclusive)
+      endDate.setUTCHours(23, 59, 59, 999);
+      return this.service.findByPeriod(startDate, endDate);
     }
     return this.service.findAll();
   }
