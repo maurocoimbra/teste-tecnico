@@ -2,6 +2,10 @@
 
 Monorepo com **backend** (NestJS) e **frontend** (Next.js) para gestão de pedidos, produtos e custos.
 
+## Demonstração do Projeto
+
+https://drive.google.com/file/d/1YwFqsHMytr24vmEePnaOXbFjhKCr2XKi/view?usp=sharing
+
 ## Pré-requisitos
 
 - **Node.js** 18+ (recomendado 20+)
