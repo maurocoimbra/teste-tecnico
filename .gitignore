@@ -44,15 +44,6 @@ coverage/
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# Environment and secrets
-.env
-.env.*
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
-!.env.example
-
 # Temp
 .temp/
 .tmp/
